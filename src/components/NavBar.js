@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className="navbar bg-base-100">
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl">EcommerceDieguidev</a>
+        <h1 className="btn btn-ghost normal-case text-xl">EcommerceDieguidev</h1>
       </div>
       <div className="flex-none">
         <div className="dropdown dropdown-end md:hidden">
@@ -21,17 +21,6 @@ const Navbar = () => {
         <CartWidget />
       </div>
     </nav>
-    // <div className='h-11 w-screen bg-slate-600 flex flex-'>
-    //   {/* <h1>Ecommerce-Dieguidev</h1>
-
-    //   <ul className='flex md:'>
-    //     <li>Kitchen</li>
-    //     <li>Celular</li>
-    //     <li>Tecnology</li>
-    //     <li> <CartWidget /> </li>
-    //   </ul> */}
-
-    // </div>
   );
 };
 
